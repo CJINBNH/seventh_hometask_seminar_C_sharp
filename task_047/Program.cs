@@ -17,7 +17,7 @@ for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        matrix[i, j] = ran.NextDouble();
+        matrix[i, j] = Math.Round(ran.NextDouble(), 1);
         Console.Write(matrix[i, j] + " ");
     }
     Console.WriteLine();
